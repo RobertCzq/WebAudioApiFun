@@ -23,10 +23,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app.css" />
-    <Content Include="business logic\DrumMachine.js" />
-    <Content Include="business logic\LFO.js" />
-    <Content Include="DrumMachine.html" />
-    <Content Include="LFO.html" />
+    <Content Include="logic\DrumMachine.js" />
+    <Content Include="logic\LFO.js" />
+    <Content Include="pages\DrumMachine.html" />
+    <Content Include="pages\LFO.html" />
     <Content Include="libs\nexusUI.js" />
     <Content Include="samples\000_drum1.wav" />
     <Content Include="samples\001_drum2.wav" />
