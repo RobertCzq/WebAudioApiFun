@@ -24,7 +24,9 @@
   <ItemGroup>
     <Content Include="app.css" />
     <Content Include="business logic\DrumMachine.js" />
+    <Content Include="business logic\LFO.js" />
     <Content Include="DrumMachine.html" />
+    <Content Include="LFO.html" />
     <Content Include="libs\nexusUI.js" />
     <Content Include="samples\000_drum1.wav" />
     <Content Include="samples\001_drum2.wav" />

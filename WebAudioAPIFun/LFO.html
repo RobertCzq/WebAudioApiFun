@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>LFO</title>
+	<meta charset="utf-8" />
+    <script src="/libs/nexusUI.js"></script>
+    <script src="/business logic/LFO.js"></script>
+</head>
+<body>
+    <div style="background:black;height:600px;color:white"
+         onmousemove="lfo.frequency.value = event.clientX;
+                      osc.frequency.value = event.clientY;"
+         tabindex="1"
+         onkeydown="SetNote(event.key)">
+        <h1>
+            LFO
+        </h1>
+    </div>
+
+</body>
+</html>
