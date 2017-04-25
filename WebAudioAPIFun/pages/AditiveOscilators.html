@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Aditive oscilators</title>
+    <script src="/libs/nexusUI.js"></script>
+    <script src="/logic/AditiveOscilators.js"></script>
+</head>
+<body>
+    <div><h1>Aditive oscilators</h1></div>
+    <div>
+        <p> Added 3 dial knobs to control the frequency for osc, lfo and the gain of lfo_amp.</p>
+        <p>At the start of the program they are all set to 0. To get sound dial them up.</p>
+    </div>
+    <table>
+        <tr>
+            <th>Osc</th>
+            <th>Lfo</th>
+            <th>Lfo_amp</th>
+        </tr>
+        <tr>
+            <td><canvas id="osc1" width="200px" min="0" max="1000" nx="dial"></canvas></td>
+            <td><canvas id="lfo1" width="200px" min="0" max="200" nx="dial"></canvas></td>
+            <td><canvas id="amp1" width="200px" min="0" max="200" nx="dial"></canvas></td>
+
+        </tr>
+    </table>
+</body>
+</html>
+
+
+<style>
+    div {
+        margin-left: 20px;
+    }
+</style>
+
+
+
