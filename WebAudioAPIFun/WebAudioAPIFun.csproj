@@ -27,11 +27,13 @@
     <Content Include="logic\DrumMachine.js" />
     <Content Include="logic\Keyboard.js" />
     <Content Include="logic\LFO.js" />
+    <Content Include="logic\Piano.js" />
     <Content Include="pages\AditiveOscilators.html" />
     <Content Include="pages\DrumMachine.html" />
     <Content Include="pages\Keyboard.html" />
     <Content Include="pages\LFO.html" />
     <Content Include="libs\nexusUI.js" />
+    <Content Include="pages\Piano.html" />
     <Content Include="samples\000_drum1.wav" />
     <Content Include="samples\001_drum2.wav" />
     <Content Include="samples\002_drum3.wav" />

@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Piano</title>
+	<meta charset="utf-8" />
+    <script src="/libs/nexusUI.js"></script>
+    <script src="/logic/Piano.js"></script>
+</head>
+<body>
+
+    <div><h1>Piano</h1></div>
+    <div>
+        <p>
+           Decay dial controls the perioad each note plays until it gets to 0.
+           The gain acts as a volume control.
+        </p>
+    </div>
+    <div><span id="dl"><b>Decay</b></span><span><b>Gain</b></span></div>
+    <div>
+        <canvas id="decay" width="200px" min="0" max="5" nx="dial" style="margin-right:15px;"></canvas>
+        <canvas id="amplification" width="200px" nx="dial"></canvas>
+    </div>
+    <br>
+    <div><canvas id="keyboard" nx="keyboard" width="400px" height="100px"></canvas></div>
+
+</body>
+
+</html>
+
+
+<style>
+    span {
+        margin-left: 75px;
+    }
+
+    #dl {
+        margin-right: 107px;
+    }
+
+    div {
+        margin-left: 30px;
+    }
+
+    p {
+        width: 405px;
+    }
+</style>
