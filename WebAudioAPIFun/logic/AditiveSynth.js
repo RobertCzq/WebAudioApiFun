@@ -1,5 +1,4 @@
 ﻿var audio_context = window.AudioContext || window.webkitAudioContext;
-
 var con = new audio_context();
 
 // this time, we create two oscillators
@@ -8,7 +7,6 @@ var lfo = con.createOscillator();
 
 // lfo_amp is not an oscillator - it is a 'gain node'
 var lfo_amp = con.createGain();
-
 
 var osc1, lfo1, amp1;
 nx.onload = function()
@@ -38,7 +36,6 @@ function SetLfo_ampGain(data)
     lfo_amp.gain.value = data.value;
 }
 
-
 // now for the wiring 
 // ...
 // connect the lfo oscillator 
@@ -50,7 +47,5 @@ lfo.connect(lfo_amp);
 lfo_amp.connect(osc.frequency);
 // connect the main osciilator to the audio out
 osc.connect(con.destination);
-
-
 osc.start();
 lfo.start();
